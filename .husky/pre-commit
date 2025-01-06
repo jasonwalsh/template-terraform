@@ -1,0 +1,2 @@
+terraform-docs . | cut -d ' ' -f 1 | xargs git add
+npx lint-staged
