@@ -1,5 +1,9 @@
 name: Create a release
 
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
